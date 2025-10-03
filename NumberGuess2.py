@@ -7,7 +7,6 @@ Number=random.randint(25,50)
 while True:
     Guess=int(input("Guess the number :\n min 25  and maximum 50 :"))
     counter=counter+1
-    print(Number)
     if Guess==Number:
             print(f"Congratulations! You Guessed the number in {counter} attempts .")
             break
@@ -21,3 +20,4 @@ while True:
 
 
           
+
